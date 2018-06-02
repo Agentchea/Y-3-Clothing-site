@@ -1,0 +1,106 @@
+body {
+  background: #ffffff;
+}
+footer {
+  background: #000;
+
+}
+.logo {
+  height: 50px;
+  width: 65px;
+  float: left;
+  padding: 10px 0;
+}
+
+.running {
+  height: 250px;
+  width:  400px;
+}
+
+.yohji {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.winter {
+  width: 470px;
+  height: 560px;
+  padding-top: 65px;
+  margin-left: 45px;
+}
+.show {
+  width: 370px;
+  height: 560px;
+  padding-top: 65px;
+  margin-left: 45px;
+}
+header {
+  background-color: white;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav li {
+display: inline-block;
+margin-left: 90px;
+margin-right: 160px;
+padding-top: 23px;
+font-family: calibri;
+position: relative;
+
+}
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: #444;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+nav a:hover::before {
+  width: 100%
+}
+
+h5 {
+  font-family: calibri;
+  text-align: center;
+  text-transform: uppercase;
+}
+h6 {
+  color: white;
+  font-family: calibri;
+}
+img:hover {
+  transition: zoom 20px;
+}
+
+.shoes4 {
+  height: 560px;
+  width:  380px;
+  margin-left: 45px
+}
+  .bag {
+    height: 560px;
+    width:  380px;
+    margin-left: 45px
+  }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
